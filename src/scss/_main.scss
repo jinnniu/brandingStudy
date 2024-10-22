@@ -6,7 +6,15 @@
     overflow: hidden;
     .intro {
         font-size: 3rem;
-        padding: 1rem;
+        padding: 1.5rem 2rem;
+        border-bottom: 2px solid #F2F2F2;
+        summary {
+            img {
+                width: 10rem;
+                display: flex;
+                align-items: center;
+            }
+        }
     }
 }
 
@@ -15,21 +23,49 @@
     flex-direction: row;
 
     .activity {
-        padding: 1rem;
+        padding: 1.5rem 2rem;
         overflow-y: scroll;
         &::-webkit-scrollbar {
-            width: 5px;
+            width: 1rem;
             height: 8px;
-            background-color: #ffffff;
+            background-color: #F2F2F2;
         }
-        &::-webkit-scrollbar-thumb {
-            background: #000;
+        h1 {
+            font-family: "Gasoek One", sans-serif;
+            font-size: 3rem;
+            overflow : hidden;
+            white-space : nowrap;
+            text-overflow : ellipsis;
+            letter-spacing : 0.1rem;
+            padding-bottom: 1.5rem
         }
     }
     &--read {
         max-width: 80%;
         height: 100vh;
         overflow-y: scroll;
+        h1 {
+            color: #FF9000;
+        }
+        &::-webkit-scrollbar-thumb {
+            background: #FF9000;
+        }
+    }
+    &--watch {
+        h1 {
+            color: #10BB3B;
+        }
+        &::-webkit-scrollbar-thumb {
+            background: #10BB3B;
+        }
+    }
+    &--visit {
+        h1 {
+            color: #1B86F2;
+        }
+        &::-webkit-scrollbar-thumb {
+            background: #1B86F2;
+        }
     }
 }
 

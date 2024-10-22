@@ -49,9 +49,13 @@ table {
   border-spacing: 0;
 }
 
+html {
+  font-size: 15px;
+}
+
 body {
   color: #000000;
-  font-family: sans-serif;
+  font-family: Pretendard, sans-serif;
   background-color: #ffffff;
   width: 100%;
   height: 100%;
@@ -75,7 +79,13 @@ summary {
 }
 .wrapper .intro {
   font-size: 3rem;
-  padding: 1rem;
+  padding: 1.5rem 2rem;
+  border-bottom: 2px solid #F2F2F2;
+}
+.wrapper .intro summary img {
+  width: 10rem;
+  display: flex;
+  align-items: center;
 }
 
 .container {
@@ -83,24 +93,48 @@ summary {
   flex-direction: row;
 }
 .container .activity {
-  padding: 1rem;
+  padding: 1.5rem 2rem;
   overflow-y: scroll;
 }
 .container .activity::-webkit-scrollbar {
-  width: 5px;
+  width: 1rem;
   height: 8px;
-  background-color: #ffffff;
+  background-color: #F2F2F2;
 }
-.container .activity::-webkit-scrollbar-thumb {
-  background: #000;
+.container .activity h1 {
+  font-family: "Gasoek One", sans-serif;
+  font-size: 3rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  letter-spacing: 0.1rem;
+  padding-bottom: 1.5rem;
 }
 .container--read {
   max-width: 80%;
   height: 100vh;
   overflow-y: scroll;
 }
+.container--read h1 {
+  color: #FF9000;
+}
+.container--read::-webkit-scrollbar-thumb {
+  background: #FF9000;
+}
+.container--watch h1 {
+  color: #10BB3B;
+}
+.container--watch::-webkit-scrollbar-thumb {
+  background: #10BB3B;
+}
+.container--visit h1 {
+  color: #1B86F2;
+}
+.container--visit::-webkit-scrollbar-thumb {
+  background: #1B86F2;
+}
 
 .book img {
   width: auto;
 }
-/*# sourceMappingURL=css/style.css.map */
+/*# sourceMappingURL=style.css.map */
