@@ -1,5 +1,6 @@
 const detailsActivity = document.querySelectorAll(".container .activity");
 const detailBook = document.querySelectorAll(".container .activity .book");
+const detailVideo = document.querySelectorAll(".container .activity .video");
 
 // activity details
 detailsActivity.forEach((activity) => {
@@ -31,6 +32,21 @@ function setTargetBook(targetBook) {
   detailBook.forEach((book) => {
     if (book !== targetBook) {
       book.open = false;
+    }
+  });
+}
+
+// video details
+detailVideo.forEach((video) => {
+  video.addEventListener("toggle", () => {
+    if (video.open) setTargetVideo(video);
+  });
+});
+
+function setTargetVideo(targetvideo) {
+  detailVideo.forEach((video) => {
+    if (video !== targetvideo) {
+      video.open = false;
     }
   });
 }

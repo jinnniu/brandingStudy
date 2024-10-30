@@ -1,12 +1,21 @@
 @media (max-width: 1000px) {
-    .book {
-        &--contents {
-            &__info {
-                flex-direction: column;
-                gap: 0.5rem;
+    .container {
+        .activity {
+            &--read {
+                .book {
+                    &--contents {
+                        &__info {
+                            flex-direction: column;
+                            gap: 0.5rem;
+                        }
+                        &__study {
+                            grid-template-columns: repeat(2, 1fr);
+                        }
+                    }
+                }
             }
-            &__study {
-                grid-template-columns: repeat(2, 1fr);
+            &--watch {
+                grid-template-columns: repeat(auto-fit, minmax(250px, auto));
             }
         }
     }
