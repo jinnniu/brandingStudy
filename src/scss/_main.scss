@@ -20,6 +20,7 @@
     flex-direction: row;
     height: 100%;
     .activity {
+        overflow-x: hidden;
         overflow-y: scroll;
         padding: 1.5rem 2rem;
         &::-webkit-scrollbar {
@@ -47,9 +48,43 @@
             pointer-events: none;
             height: auto;
         }
-        // &--inner {
-            
-        // }
+        &--watch {
+            display: grid;
+            gap: 1rem;
+            grid-template-columns: repeat(auto-fill, minmax(25%, auto));
+            color: $blue;
+            .video {
+
+                &:nth-child(2n+1)  {
+                    // max-width: 35%;
+                    > summary {
+                        font-size: 2rem;
+                        line-height: 1.2;
+                        font-weight: 300;
+                    }
+                }
+                &:nth-child(2n) {
+                    // max-width: 40%;
+                    > summary {
+                        font-size: 4rem;
+                        line-height: 1.1;
+                        font-weight: 600;
+                    }
+                }
+                &:nth-child(3n) {
+                    // max-width: 20%;
+                    > summary {
+                        font-size: 3rem;
+                        line-height: 1.1;
+                        font-weight: 500;
+                    }
+                }
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
     }
     &--read {
         width: 80%;
@@ -63,19 +98,19 @@
     &--watch {
         width: 10%;
         h1 {
-            color: $green;
+            color: $blue;
         }
         &::-webkit-scrollbar-thumb {
-            background: $green;
+            background: $blue;
         }
     }
     &--visit {
         width: 10%;
         h1 {
-            color: $blue;
+            color: $green;
         }
         &::-webkit-scrollbar-thumb {
-            background: $blue;
+            background: $green;
         }
     }
 }
@@ -85,8 +120,44 @@
         width: 100%;
     }
     &--contents {
-        padding: 1rem;
+        padding-top: 1rem;
         color: $orange;
+        &__info {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            .book-info {
+                display: flex;
+                flex-direction: row;
+                gap: 0.5rem;
+                li:last-child:before {
+                    content: "|";
+                    padding-right: 0.5rem;
+                }
+            }
+        }
+        &__study {
+            padding-top: 1.5rem;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 0.5rem;
+            line-height: 1.6;
+            word-break: keep-all;
+            strong {
+                font-weight: 600;
+            }
+            .study-annotation {
+                margin-top: 2rem;
+                p {
+                    font-size: 70%;
+                    padding: 0.5rem 0;
+                }
+                a {
+                    color: $orange;
+
+                }
+            }
+        }
     }
 }
 

@@ -43,6 +43,10 @@ html, body {
 
 html {
   font-size: 15px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 body {
@@ -60,6 +64,16 @@ summary {
   cursor: pointer;
 }
 
+sup {
+  font-size: 50%;
+  padding: 0.1rem 0.3rem;
+  margin: 0 0.1rem;
+  height: 0.5rem;
+  background-color: #FF9000;
+  color: #ffffff;
+  vertical-align: super;
+}
+
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -74,6 +88,7 @@ summary {
   height: 100%;
 }
 .container .activity {
+  overflow-x: hidden;
   overflow-y: scroll;
   padding: 1.5rem 2rem;
 }
@@ -99,6 +114,30 @@ summary {
   pointer-events: none;
   height: auto;
 }
+.container .activity--watch {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(25%, auto));
+  color: #1B86F2;
+}
+.container .activity--watch .video:nth-child(2n+1) > summary {
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: 300;
+}
+.container .activity--watch .video:nth-child(2n) > summary {
+  font-size: 4rem;
+  line-height: 1.1;
+  font-weight: 600;
+}
+.container .activity--watch .video:nth-child(3n) > summary {
+  font-size: 3rem;
+  line-height: 1.1;
+  font-weight: 500;
+}
+.container .activity--watch .video img {
+  width: 100%;
+}
 .container--read {
   width: 80%;
 }
@@ -112,26 +151,61 @@ summary {
   width: 10%;
 }
 .container--watch h1 {
-  color: #10BB3B;
+  color: #1B86F2;
 }
 .container--watch::-webkit-scrollbar-thumb {
-  background: #10BB3B;
+  background: #1B86F2;
 }
 .container--visit {
   width: 10%;
 }
 .container--visit h1 {
-  color: #1B86F2;
+  color: #10BB3B;
 }
 .container--visit::-webkit-scrollbar-thumb {
-  background: #1B86F2;
+  background: #10BB3B;
 }
 
 .book img {
   width: 100%;
 }
 .book--contents {
-  padding: 1rem;
+  padding-top: 1rem;
+  color: #FF9000;
+}
+.book--contents__info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.book--contents__info .book-info {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+.book--contents__info .book-info li:last-child:before {
+  content: "|";
+  padding-right: 0.5rem;
+}
+.book--contents__study {
+  padding-top: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+  line-height: 1.6;
+  word-break: keep-all;
+}
+.book--contents__study strong {
+  font-weight: 600;
+}
+.book--contents__study .study-annotation {
+  margin-top: 2rem;
+}
+.book--contents__study .study-annotation p {
+  font-size: 70%;
+  padding: 0.5rem 0;
+}
+.book--contents__study .study-annotation a {
   color: #FF9000;
 }
 
@@ -141,8 +215,17 @@ summary {
 .book[open] .book--spine {
   background-color: #FF9000;
 }
-.book[open] .book--spine h1, .book[open] .book--spine h3, .book[open] .book--spine p {
+.book[open] .book--spine * {
   color: #ffffff !important;
+}
+.book[open] .book--spine .line, .book[open] .book--spine .smallline {
+  background-color: #ffffff;
+}
+.book[open] .book--spine .version span {
+  border: solid 0.1rem #ffffff;
+}
+.book[open] .book--spine svg path {
+  fill: #ffffff !important;
 }
 .book .book--spine {
   width: 85%;
@@ -169,12 +252,13 @@ summary {
 .book .book--spine:hover svg path {
   fill: #ffffff !important;
 }
-.book .book--spine h1 {
+.book .book--spine h1, .book .book--spine p {
   padding: 0;
+  white-space: nowrap;
 }
 .book .book9 {
   padding: 2.5rem 4rem;
-  gap: 28%;
+  justify-content: space-between;
 }
 .book .book9 h1 {
   font-size: 2.5rem;
@@ -185,16 +269,26 @@ summary {
   display: flex;
   flex-direction: row;
   align-items: center;
+  gap: 10rem;
+}
+.book .book9 div ol {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   gap: 0.5rem;
   font-weight: 600;
   font-size: 1.2rem;
 }
 .book .book9 div svg {
-  margin-left: 3rem;
+  height: 5rem;
+}
+.book .book9 div svg path {
+  fill: #FF9000;
 }
 .book .book8 {
-  padding: 2.5rem 3rem;
+  padding: 2.5rem 0 2.5rem 3rem;
   gap: 10%;
+  justify-content: space-between;
 }
 .book .book8 h1 {
   font-size: 2.5rem;
@@ -211,18 +305,32 @@ summary {
   content: "|";
   padding-left: 0.5rem;
 }
+.book .book8 svg {
+  height: 3rem;
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+}
+.book .book8 svg path {
+  fill: #FF9000;
+}
 .book .book7 {
   padding: 2.5rem 4rem;
-  gap: 30%;
   position: relative;
 }
 .book .book7 div {
+  width: 100%;
   position: absolute;
   display: flex;
   flex-direction: row;
-  width: 80%;
   align-items: center;
-  gap: 30%;
+  justify-content: space-between;
+}
+.book .book7 div svg {
+  height: 3rem;
+  margin-right: 7rem;
+}
+.book .book7 div svg path {
+  fill: #FF9000;
 }
 .book .book7 h1 {
   font-size: 1.8rem;
@@ -251,21 +359,37 @@ summary {
   width: 100%;
   height: 3.5rem;
   align-items: flex-start;
-  gap: 20%;
+  justify-content: space-between;
 }
 .book .book6 h1 {
   font-size: 1.3rem;
   font-weight: 500;
   padding-left: 2rem;
 }
+.book .book6 svg {
+  height: 3.5rem;
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+}
+.book .book6 svg path {
+  fill: #FF9000;
+}
 .book .book5 {
   padding: 1rem 3rem;
   gap: 1rem;
+  justify-content: space-between;
 }
 .book .book5 .line {
-  width: 15%;
+  width: 20%;
   height: 1px;
   background-color: #FF9000;
+}
+.book .book5 .row-box {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
 }
 .book .book5 h1 {
   font-size: 2.3rem;
@@ -282,6 +406,14 @@ summary {
 }
 .book .book5 p span {
   font-size: 0.8rem;
+}
+.book .book5 svg {
+  height: 3rem;
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+}
+.book .book5 svg path {
+  fill: #FF9000;
 }
 .book .book4321 {
   width: 100%;
@@ -352,5 +484,15 @@ summary {
   height: 1rem;
   background-color: #FF9000;
   margin: 0 0.3rem;
+}
+
+@media (max-width: 1000px) {
+  .book--contents__info {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .book--contents__study {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 /*# sourceMappingURL=style.css.map */
