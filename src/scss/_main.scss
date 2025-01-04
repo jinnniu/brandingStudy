@@ -116,6 +116,10 @@
         &::-webkit-scrollbar-thumb {
             background: $orange;
         }
+        a {
+            color: $orange;
+            font-style: italic;
+        }
     }
     &--watch {
         width: 10%;
