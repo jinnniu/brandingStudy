@@ -1,0 +1,1912 @@
+Script started on Sat Jan 25 17:40:17 2025
+[1m[7m%[27m[1m[0m                                                                                ]7;file://jeong-yujins-MacBook-Pro.local/Users/jeong-yuujin/www/brandingStudy[0m[27m[24m[Jjeong-yuujin@jeong-yujins-MacBook-Pro brandingStudy % [K[?2004hgit push -u origin main[23D                       [23Dgit push -u origin main[19Dcommit -m "update books 2024"[K[A[51Cadd .[K[1B[K[A[63C[9Dnpm run gulp[?2004l[1B
+> brandingstudy@1.0.0 gulp
+> gulp
+
+[[35m17:40:24[39m] Using gulpfile [35m~/www/brandingStudy/gulpfile.js[39m
+[[35m17:40:24[39m] Starting '[36mdefault[39m'...
+[[35m17:40:24[39m] Starting '[36msass[39m'...
+[33m[1mDeprecation Warning[0m: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m2 │[0m @import [31m"_vars.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 2:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m3 │[0m @import [31m"_global.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 3:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m4 │[0m @import [31m"_main.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 4:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m5 │[0m @import [31m"_book.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 5:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m6 │[0m @import [31m"_media.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 6:9  root stylesheet
+
+[[35m17:40:24[39m] Finished '[36msass[39m' after [35m97 ms[39m
+[[35m17:40:24[39m] Starting '[36mwatch[39m'...
+[[35m17:41:24[39m] Starting '[36msass[39m'...
+[33m[1mDeprecation Warning[0m: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m2 │[0m @import [31m"_vars.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 2:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m3 │[0m @import [31m"_global.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 3:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m4 │[0m @import [31m"_main.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 4:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m5 │[0m @import [31m"_book.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 5:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m6 │[0m @import [31m"_media.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 6:9  root stylesheet
+
+[[35m17:41:24[39m] Finished '[36msass[39m' after [35m89 ms[39m
+[[35m17:41:41[39m] Starting '[36msass[39m'...
+[33m[1mDeprecation Warning[0m: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m2 │[0m @import [31m"_vars.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 2:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m3 │[0m @import [31m"_global.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 3:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m4 │[0m @import [31m"_main.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 4:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m5 │[0m @import [31m"_book.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 5:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m6 │[0m @import [31m"_media.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 6:9  root stylesheet
+
+[[35m17:41:41[39m] Finished '[36msass[39m' after [35m82 ms[39m
+[[35m17:42:10[39m] Starting '[36msass[39m'...
+[33m[1mDeprecation Warning[0m: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m2 │[0m @import [31m"_vars.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 2:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m3 │[0m @import [31m"_global.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 3:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m4 │[0m @import [31m"_main.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 4:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m5 │[0m @import [31m"_book.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 5:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m6 │[0m @import [31m"_media.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 6:9  root stylesheet
+
+[[35m17:42:11[39m] Finished '[36msass[39m' after [35m76 ms[39m
+[[35m17:42:11[39m] Starting '[36msass[39m'...
+[33m[1mDeprecation Warning[0m: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m2 │[0m @import [31m"_vars.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 2:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m3 │[0m @import [31m"_global.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 3:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m4 │[0m @import [31m"_main.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 4:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m5 │[0m @import [31m"_book.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 5:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m6 │[0m @import [31m"_media.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 6:9  root stylesheet
+
+[[35m17:42:11[39m] Finished '[36msass[39m' after [35m63 ms[39m
+[[35m17:42:42[39m] Starting '[36msass[39m'...
+[33m[1mDeprecation Warning[0m: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m2 │[0m @import [31m"_vars.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 2:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m3 │[0m @import [31m"_global.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 3:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m4 │[0m @import [31m"_main.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 4:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m5 │[0m @import [31m"_book.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 5:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m6 │[0m @import [31m"_media.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 6:9  root stylesheet
+
+[[35m17:42:42[39m] Finished '[36msass[39m' after [35m84 ms[39m
+[[35m17:43:40[39m] Starting '[36msass[39m'...
+[33m[1mDeprecation Warning[0m: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m2 │[0m @import [31m"_vars.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 2:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m3 │[0m @import [31m"_global.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 3:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m4 │[0m @import [31m"_main.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 4:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m5 │[0m @import [31m"_book.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 5:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m6 │[0m @import [31m"_media.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 6:9  root stylesheet
+
+[[35m17:43:40[39m] Finished '[36msass[39m' after [35m70 ms[39m
+[[35m17:46:49[39m] Starting '[36msass[39m'...
+[33m[1mDeprecation Warning[0m: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m2 │[0m @import [31m"_vars.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 2:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m3 │[0m @import [31m"_global.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 3:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m4 │[0m @import [31m"_main.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 4:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m5 │[0m @import [31m"_book.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 5:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m6 │[0m @import [31m"_media.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 6:9  root stylesheet
+
+[[35m17:46:49[39m] Finished '[36msass[39m' after [35m64 ms[39m
+[[35m17:47:07[39m] Starting '[36msass[39m'...
+[33m[1mDeprecation Warning[0m: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m2 │[0m @import [31m"_vars.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 2:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m3 │[0m @import [31m"_global.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 3:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m4 │[0m @import [31m"_main.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 4:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m5 │[0m @import [31m"_book.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 5:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m6 │[0m @import [31m"_media.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 6:9  root stylesheet
+
+[[35m17:47:07[39m] Finished '[36msass[39m' after [35m63 ms[39m
+[[35m17:47:24[39m] Starting '[36msass[39m'...
+[33m[1mDeprecation Warning[0m: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m2 │[0m @import [31m"_vars.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 2:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m3 │[0m @import [31m"_global.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 3:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m4 │[0m @import [31m"_main.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 4:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m5 │[0m @import [31m"_book.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 5:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m6 │[0m @import [31m"_media.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 6:9  root stylesheet
+
+[[35m17:47:24[39m] Finished '[36msass[39m' after [35m64 ms[39m
+[[35m17:48:17[39m] Starting '[36msass[39m'...
+[33m[1mDeprecation Warning[0m: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m2 │[0m @import [31m"_vars.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 2:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m3 │[0m @import [31m"_global.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 3:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m4 │[0m @import [31m"_main.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 4:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m5 │[0m @import [31m"_book.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 5:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m6 │[0m @import [31m"_media.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 6:9  root stylesheet
+
+[[35m17:48:17[39m] Finished '[36msass[39m' after [35m62 ms[39m
+[[35m17:48:36[39m] Starting '[36msass[39m'...
+[33m[1mDeprecation Warning[0m: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m2 │[0m @import [31m"_vars.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 2:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m3 │[0m @import [31m"_global.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 3:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m4 │[0m @import [31m"_main.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 4:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m5 │[0m @import [31m"_book.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 5:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m6 │[0m @import [31m"_media.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 6:9  root stylesheet
+
+[[35m17:48:36[39m] Finished '[36msass[39m' after [35m67 ms[39m
+[[35m17:48:36[39m] Starting '[36msass[39m'...
+[33m[1mDeprecation Warning[0m: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m2 │[0m @import [31m"_vars.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 2:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m3 │[0m @import [31m"_global.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 3:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m4 │[0m @import [31m"_main.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 4:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m5 │[0m @import [31m"_book.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 5:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m6 │[0m @import [31m"_media.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 6:9  root stylesheet
+
+[[35m17:48:36[39m] Finished '[36msass[39m' after [35m45 ms[39m
+[[35m17:50:06[39m] Starting '[36msass[39m'...
+[33m[1mDeprecation Warning[0m: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m2 │[0m @import [31m"_vars.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 2:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m3 │[0m @import [31m"_global.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 3:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m4 │[0m @import [31m"_main.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 4:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m5 │[0m @import [31m"_book.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 5:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m6 │[0m @import [31m"_media.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 6:9  root stylesheet
+
+[[35m17:50:06[39m] Finished '[36msass[39m' after [35m69 ms[39m
+[[35m17:50:32[39m] Starting '[36msass[39m'...
+[33m[1mDeprecation Warning[0m: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m2 │[0m @import [31m"_vars.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 2:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m3 │[0m @import [31m"_global.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 3:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m4 │[0m @import [31m"_main.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 4:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m5 │[0m @import [31m"_book.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 5:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m6 │[0m @import [31m"_media.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 6:9  root stylesheet
+
+[[35m17:50:32[39m] Finished '[36msass[39m' after [35m66 ms[39m
+[[35m17:50:42[39m] Starting '[36msass[39m'...
+[33m[1mDeprecation Warning[0m: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m2 │[0m @import [31m"_vars.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 2:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m3 │[0m @import [31m"_global.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 3:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m4 │[0m @import [31m"_main.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 4:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m5 │[0m @import [31m"_book.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 5:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m6 │[0m @import [31m"_media.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 6:9  root stylesheet
+
+[[35m17:50:42[39m] Finished '[36msass[39m' after [35m57 ms[39m
+[[35m17:50:48[39m] Starting '[36msass[39m'...
+[33m[1mDeprecation Warning[0m: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m2 │[0m @import [31m"_vars.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 2:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m3 │[0m @import [31m"_global.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 3:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m4 │[0m @import [31m"_main.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 4:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m5 │[0m @import [31m"_book.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 5:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m6 │[0m @import [31m"_media.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 6:9  root stylesheet
+
+[[35m17:50:48[39m] Finished '[36msass[39m' after [35m63 ms[39m
+[[35m17:51:27[39m] Starting '[36msass[39m'...
+[33m[1mDeprecation Warning[0m: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m2 │[0m @import [31m"_vars.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 2:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m3 │[0m @import [31m"_global.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 3:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m4 │[0m @import [31m"_main.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 4:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m5 │[0m @import [31m"_book.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 5:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m6 │[0m @import [31m"_media.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 6:9  root stylesheet
+
+[[35m17:51:27[39m] Finished '[36msass[39m' after [35m70 ms[39m
+[[35m17:51:29[39m] Starting '[36msass[39m'...
+[33m[1mDeprecation Warning[0m: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m2 │[0m @import [31m"_vars.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 2:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m3 │[0m @import [31m"_global.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 3:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m4 │[0m @import [31m"_main.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 4:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m5 │[0m @import [31m"_book.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 5:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m6 │[0m @import [31m"_media.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 6:9  root stylesheet
+
+[[35m17:51:29[39m] Finished '[36msass[39m' after [35m59 ms[39m
+[[35m17:51:33[39m] Starting '[36msass[39m'...
+[33m[1mDeprecation Warning[0m: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m2 │[0m @import [31m"_vars.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 2:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m3 │[0m @import [31m"_global.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 3:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m4 │[0m @import [31m"_main.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 4:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m5 │[0m @import [31m"_book.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 5:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m6 │[0m @import [31m"_media.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 6:9  root stylesheet
+
+[[35m17:51:33[39m] Finished '[36msass[39m' after [35m51 ms[39m
+[[35m17:51:46[39m] Starting '[36msass[39m'...
+[33m[1mDeprecation Warning[0m: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m2 │[0m @import [31m"_vars.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 2:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m3 │[0m @import [31m"_global.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 3:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m4 │[0m @import [31m"_main.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 4:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m5 │[0m @import [31m"_book.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 5:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m6 │[0m @import [31m"_media.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 6:9  root stylesheet
+
+[[35m17:51:46[39m] Finished '[36msass[39m' after [35m49 ms[39m
+[[35m17:52:03[39m] Starting '[36msass[39m'...
+[33m[1mDeprecation Warning[0m: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m2 │[0m @import [31m"_vars.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 2:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m3 │[0m @import [31m"_global.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 3:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m4 │[0m @import [31m"_main.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 4:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m5 │[0m @import [31m"_book.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 5:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m6 │[0m @import [31m"_media.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 6:9  root stylesheet
+
+[[35m17:52:03[39m] Finished '[36msass[39m' after [35m57 ms[39m
+[[35m17:52:48[39m] Starting '[36msass[39m'...
+[33m[1mDeprecation Warning[0m: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m2 │[0m @import [31m"_vars.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 2:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m3 │[0m @import [31m"_global.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 3:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m4 │[0m @import [31m"_main.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 4:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m5 │[0m @import [31m"_book.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 5:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m6 │[0m @import [31m"_media.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 6:9  root stylesheet
+
+[[35m17:52:48[39m] Finished '[36msass[39m' after [35m63 ms[39m
+[[35m17:52:54[39m] Starting '[36msass[39m'...
+[33m[1mDeprecation Warning[0m: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m2 │[0m @import [31m"_vars.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 2:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m3 │[0m @import [31m"_global.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 3:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m4 │[0m @import [31m"_main.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 4:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m5 │[0m @import [31m"_book.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 5:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m6 │[0m @import [31m"_media.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 6:9  root stylesheet
+
+[[35m17:52:54[39m] Finished '[36msass[39m' after [35m52 ms[39m
+[[35m17:53:55[39m] Starting '[36msass[39m'...
+[33m[1mDeprecation Warning[0m: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m2 │[0m @import [31m"_vars.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 2:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m3 │[0m @import [31m"_global.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 3:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m4 │[0m @import [31m"_main.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 4:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m5 │[0m @import [31m"_book.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 5:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m6 │[0m @import [31m"_media.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 6:9  root stylesheet
+
+[[35m17:53:55[39m] Finished '[36msass[39m' after [35m44 ms[39m
+[[35m17:54:51[39m] Starting '[36msass[39m'...
+[33m[1mDeprecation Warning[0m: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m2 │[0m @import [31m"_vars.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 2:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m3 │[0m @import [31m"_global.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 3:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m4 │[0m @import [31m"_main.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 4:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m5 │[0m @import [31m"_book.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 5:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m6 │[0m @import [31m"_media.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 6:9  root stylesheet
+
+[[35m17:54:51[39m] Finished '[36msass[39m' after [35m67 ms[39m
+[[35m17:55:16[39m] Starting '[36msass[39m'...
+[33m[1mDeprecation Warning[0m: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m2 │[0m @import [31m"_vars.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 2:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m3 │[0m @import [31m"_global.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 3:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m4 │[0m @import [31m"_main.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 4:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m5 │[0m @import [31m"_book.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 5:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m6 │[0m @import [31m"_media.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 6:9  root stylesheet
+
+[[35m17:55:16[39m] Finished '[36msass[39m' after [35m101 ms[39m
+[[35m17:56:37[39m] Starting '[36msass[39m'...
+[33m[1mDeprecation Warning[0m: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m2 │[0m @import [31m"_vars.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 2:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m3 │[0m @import [31m"_global.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 3:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m4 │[0m @import [31m"_main.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 4:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m5 │[0m @import [31m"_book.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 5:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m6 │[0m @import [31m"_media.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 6:9  root stylesheet
+
+[[35m17:56:37[39m] Finished '[36msass[39m' after [35m88 ms[39m
+[[35m17:58:16[39m] Starting '[36msass[39m'...
+[33m[1mDeprecation Warning[0m: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m2 │[0m @import [31m"_vars.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 2:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m3 │[0m @import [31m"_global.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 3:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m4 │[0m @import [31m"_main.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 4:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m5 │[0m @import [31m"_book.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 5:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m6 │[0m @import [31m"_media.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 6:9  root stylesheet
+
+[[35m17:58:16[39m] Finished '[36msass[39m' after [35m66 ms[39m
+[[35m17:58:27[39m] Starting '[36msass[39m'...
+[33m[1mDeprecation Warning[0m: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m2 │[0m @import [31m"_vars.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 2:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m3 │[0m @import [31m"_global.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 3:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m4 │[0m @import [31m"_main.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 4:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m5 │[0m @import [31m"_book.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 5:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m6 │[0m @import [31m"_media.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 6:9  root stylesheet
+
+[[35m17:58:27[39m] Finished '[36msass[39m' after [35m61 ms[39m
+[[35m17:58:29[39m] Starting '[36msass[39m'...
+[33m[1mDeprecation Warning[0m: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m2 │[0m @import [31m"_vars.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 2:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m3 │[0m @import [31m"_global.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 3:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m4 │[0m @import [31m"_main.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 4:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m5 │[0m @import [31m"_book.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 5:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m6 │[0m @import [31m"_media.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 6:9  root stylesheet
+
+[[35m17:58:29[39m] Finished '[36msass[39m' after [35m57 ms[39m
+[[35m17:58:48[39m] Starting '[36msass[39m'...
+[33m[1mDeprecation Warning[0m: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m2 │[0m @import [31m"_vars.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 2:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m3 │[0m @import [31m"_global.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 3:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m4 │[0m @import [31m"_main.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 4:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m5 │[0m @import [31m"_book.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 5:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m6 │[0m @import [31m"_media.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 6:9  root stylesheet
+
+[[35m17:58:48[39m] Finished '[36msass[39m' after [35m49 ms[39m
+[[35m17:59:19[39m] Starting '[36msass[39m'...
+[33m[1mDeprecation Warning[0m: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m2 │[0m @import [31m"_vars.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 2:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m3 │[0m @import [31m"_global.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 3:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m4 │[0m @import [31m"_main.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 4:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m5 │[0m @import [31m"_book.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 5:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m6 │[0m @import [31m"_media.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 6:9  root stylesheet
+
+[[35m17:59:19[39m] Finished '[36msass[39m' after [35m51 ms[39m
+[[35m18:01:03[39m] Starting '[36msass[39m'...
+[33m[1mDeprecation Warning[0m: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m2 │[0m @import [31m"_vars.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 2:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m3 │[0m @import [31m"_global.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 3:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m4 │[0m @import [31m"_main.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 4:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m5 │[0m @import [31m"_book.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 5:9  root stylesheet
+
+[33m[1mDeprecation Warning[0m: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+[34m  ╷[0m
+[34m6 │[0m @import [31m"_media.scss"[0m;
+[34m  │[0m [31m        ^^^^^^^^^^^^^[0m
+[34m  ╵[0m
+    src/scss/style.scss 6:9  root stylesheet
+
+[[35m18:01:03[39m] Finished '[36msass[39m' after [35m51 ms[39m

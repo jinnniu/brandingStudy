@@ -1,7 +1,10 @@
 @media (max-width: 1000px) {
     .container {
+        flex-direction: column;
         .activity {
+            width: 100%;
             &--read {
+                width: 100%;
                 .book {
                     &--contents {
                         &__info {

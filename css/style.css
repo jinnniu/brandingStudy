@@ -186,6 +186,9 @@ em {
 .container--read {
   width: 80%;
 }
+.container--read[open] > summary h1::after {
+  content: "ead";
+}
 .container--read h1 {
   color: #FF9000;
 }
@@ -199,6 +202,9 @@ em {
 .container--watch {
   width: 10%;
 }
+.container--watch[open] > summary h1::after {
+  content: "atched";
+}
 .container--watch h1 {
   color: #1B86F2;
 }
@@ -207,6 +213,9 @@ em {
 }
 .container--visit {
   width: 10%;
+}
+.container--visit[open] > summary h1::after {
+  content: "isited";
 }
 .container--visit h1 {
   color: #10BB3B;
@@ -277,10 +286,14 @@ em {
 .book--contents__study {
   padding-top: 1.5rem;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 0.5rem;
   line-height: 1.6;
   word-break: keep-all;
+}
+.book--contents__study details:hover {
+  border: solid 0.1rem #FF9000;
+  padding: 0.5rem;
 }
 .book--contents__study .study-annotation {
   margin-top: 2rem;
@@ -572,6 +585,15 @@ em {
 }
 
 @media (max-width: 1000px) {
+  .container {
+    flex-direction: column;
+  }
+  .container .activity {
+    width: 100%;
+  }
+  .container .activity--read {
+    width: 100%;
+  }
   .container .activity--read .book--contents__info {
     flex-direction: column;
     gap: 0.5rem;

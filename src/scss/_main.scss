@@ -109,6 +109,9 @@
         }
     }
     &--read {
+        &[open] > summary h1::after {
+            content: "ead";
+        }
         width: 80%;
         h1 {
             color: $orange;
@@ -122,6 +125,9 @@
         }
     }
     &--watch {
+        &[open] > summary h1::after {
+            content: "atched";
+        }
         width: 10%;
         h1 {
             color: $blue;
@@ -131,6 +137,9 @@
         }
     }
     &--visit {
+        &[open] > summary h1::after {
+            content: "isited";
+        }
         width: 10%;
         h1 {
             color: $green;
@@ -203,10 +212,14 @@
         &__study {
             padding-top: 1.5rem;
             display: grid;
-            grid-template-columns: repeat(4, 1fr);
+            grid-template-columns: repeat(3, 1fr);
             gap: 0.5rem;
             line-height: 1.6;
             word-break: keep-all;
+            details:hover {
+                border: solid 0.1rem $orange;
+                padding: 0.5rem;
+            }
             .study-annotation {
                 margin-top: 2rem;
                 p {
